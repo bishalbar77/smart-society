@@ -430,8 +430,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="copyright_text">
-                        <P>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.</P>
+                        <p>
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
