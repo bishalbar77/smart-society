@@ -90,7 +90,7 @@ Route::get('/yourcenter/{post}', 'PostsController@yourcenter')->name('yourcenter
 Route::get('/yourcenter/{post}/edit', 'PostsController@editYourCenter')->name('yourcenter.edit');
 Route::get('/posts/showdata', 'PostsController@showdata')->name('posts.showdata');
 Route::get('/homepage', 'PostsController@manage')->name('posts.manage');
-Route::post('/servicecentres', 'PostsController@store');
+Route::post('/servicecentres', 'PostsController@store')->name('store.servicecentres');
 Route::get('/servicecentres/show', 'PostsController@showdata');
 Route::get('/societycreate', 'PostsController@create');
 

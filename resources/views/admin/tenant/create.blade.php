@@ -141,16 +141,11 @@
             
 
             <div class="form-group row">
-            <div class="col-lg-3">
+            <div class="col-lg-4">
             <label>Post/Pincode</label>
             <input id="pincode" type="text" class="form-control " name="pincode" required autocomplete="pincode" autofocus/>
             <span class="form-text text-muted">Please enter your Postcode or Pincode</span>
 
-            </div>
-
-            <div class="col-lg-1">
-            <label>.</label>
-            <input type="button" class="btn btn-success form-control" value="Auto" onclick="get_details()">
             </div>
 
             <div class="col-lg-4">

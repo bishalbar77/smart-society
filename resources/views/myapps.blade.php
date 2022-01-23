@@ -5,8 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Mavensdesk Technology Services | MyApps</title>
-    <link rel="icon" href="img/favicon.png">
+    <title>Smart Society </title>
+    <link rel="icon" href="{{ asset('media/logos/favicon.jpeg') }}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- animate CSS -->
@@ -77,10 +77,10 @@
                 <div class="col-lg-7">
                     <div class="banner_text">
                         <div class="banner_text_iner">
-                            <h1>Mavensdesk Technology Services</h1>
+                            <h1>Smart Society Services</h1>
                             <p></p>
                             <a href="/getstarted" class="btn_2 banner_btn_1">Get Started </a>
-                            <a href="/getstarted" class="btn_2 banner_btn_2">Sign up for free </a>
+                            <a href="/getstarted" class="btn_2 banner_btn_2">Sign up</a>
                         </div>
                     </div>
                 </div>
@@ -101,10 +101,10 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6 col-lg-5">
                     <div class="about_us_text">
-                        <h2>MySociety</h2>
+                        <h2>Smart Society</h2>
                         <p>Simplify everyday living for your housing society with the most advanced security and community management app.</p>
                         <a href="#" class="btn_1">get started</a>
-                        <a href="#" class="btn_2">sign up free</a>
+                        <a href="#" class="btn_2">sign up</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6">
@@ -120,54 +120,6 @@
         <img src="img/animate_icon/Shape-1.png" alt="" class="feature_icon_4">
     </section>
     <!-- about_us part end-->
-
-    <!-- use MyApps part end-->
-    <section class="use_sasu">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section_tittle text-center">
-                        <h2>Who can use MyApps?</h2>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_feature">
-                        <div class="single_feature_part">
-                            <img src="img/icon/feature_icon_1.png" alt="">
-                            <h4>Custom Apps</h4>
-                            <p>Build your custom Application.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_feature">
-                        <div class="single_feature_part">
-                            <img src="img/icon/feature_icon_2.png" alt="">
-                            <h4>Multi-vendor</h4>
-                            <p>Get everything seller as well as buyer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_feature">
-                        <div class="single_feature_part">
-                            <img src="img/icon/feature_icon_3.png" alt="">
-                            <h4>MySociety</h4>
-                            <p>A Saas Application for Society Management.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="img/animate_icon/Shape-14.png" alt="" class="feature_icon_1">
-        <img src="img/animate_icon/Shape-10.png" alt="" class="feature_icon_2">
-        <img src="img/animate_icon/Shape.png" alt="" class="feature_icon_3">
-        <img src="img/animate_icon/shape-13.png" alt="" class="feature_icon_4">
-    </section>
-    <!-- use MyApps part end-->
 
     <!-- about_us part start-->
     <section class="about_us right_time section_padding">
@@ -198,60 +150,6 @@
     <!--::footer_part start::-->
     <footer class="footer_part">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="single_footer_part">
-                        <a href="index.html" class="footer_logo_iner"> </a>
-                        <h4>About Us</h4>
-                        <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="single_footer_part">
-                        <h4>Contact Info</h4>
-                        <p>Address : Your address goes
-                            here, your demo address.
-                            Bsngladesh.</p>
-                        <p>Phone : +8880 44338899</p>
-                        <p>Email : info@bishalbar.tech</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="single_footer_part">
-                        <h4>Important Link</h4>
-                        <ul class="list-unstyled">
-                            <li><a href=""> WHMCS-bridge</a></li>
-                            <li><a href="">Search Domain</a></li>
-                            <li><a href="">My Account</a></li>
-                            <li><a href="">Shopping Cart</a></li>
-                            <li><a href="">Our Shop</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="single_footer_part">
-                        <h4>Newsletter</h4>
-                        <p>Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days
-                            open
-                        </p>
-                        <div id="mc_embed_signup">
-                            <form target="_blank"
-                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                method="get" class="subscribe_form relative mail_part">
-                                <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
-                                    class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = ' Email Address '">
-                                <button type="submit" name="submit" id="newsletter-submit"
-                                    class="email_icon newsletter-submit button-contactForm"><i
-                                        class="far fa-paper-plane"></i></button>
-                                <div class="mt-10 info"></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
             <div class="row">
                 <div class="col-lg-8">
                     <div class="copyright_text">

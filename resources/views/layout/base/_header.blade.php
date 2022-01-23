@@ -6,13 +6,13 @@
         @if (config('layout.header.self.display'))
 
             @php
-                $kt_logo_image = 'logo-light.png';
+                $kt_logo_image = 'society-logo.png';
             @endphp
 
             @if (config('layout.header.self.theme') === 'light')
                 @php $kt_logo_image = 'logo-dark.png' @endphp
             @elseif (config('layout.header.self.theme') === 'dark')
-                @php $kt_logo_image = 'logo-light.png' @endphp
+                @php $kt_logo_image = 'society-logo.png' @endphp
             @endif
 
             {{-- Header Menu --}}

@@ -26,7 +26,7 @@
 		<link href="css/themes/layout/brand/dark.css?v=7.0.3" rel="stylesheet" type="text/css" />
 		<link href="css/themes/layout/aside/dark.css?v=7.0.3" rel="stylesheet" type="text/css" />
 		<!--end::Layout Themes-->
-        <link rel="shortcut icon" href="media/logos/favicon.ico" />
+        <link rel="shortcut icon" href="media/logos/favicon.jpeg" />
         
 	</head>
 	<!--end::Head-->

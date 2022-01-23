@@ -8,8 +8,7 @@ class MyAppsController extends Controller
 {
     public function myapps()
     {
-        
-        return "Home page here";
+        return view('myapps');
     }
 
     public function getstarted()

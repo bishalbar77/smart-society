@@ -26,7 +26,7 @@ class CreateUsersTable extends Migration
             $table->string('dob');
             $table->string('email')->unique();
             $table->string('phone')->unique();
-            $table->string('district');
+            $table->string('district')->nullable();
             $table->string('state');
             $table->string('city');
             $table->string('pincode');

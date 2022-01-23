@@ -13,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
         {{-- Favicon --}}
-        <link rel="shortcut icon" href="{{ asset('media/logos/favicon.ico') }}" />
+        <link rel="shortcut icon" href="{{ asset('media/logos/favicon.jpeg') }}" />
         <link href="css/pages/wizard/wizard-4.css?v=7.0.3" rel="stylesheet" type="text/css" />
         {{-- Fonts --}}
         {{ Metronic::getGoogleFontsInclude() }}
@@ -156,9 +156,9 @@
 		class="btn btn-sm btn-default btn-text-primary btn-hover-primary btn-icon mr-2" title="View">
 		<i class="far fa-eye text-info"></i></a>
 
-		<a href="{{ route('vehicle.edit', $user->id )}}" data-toggle="tooltip" title="Only for admins" class="btn btn-sm btn-default btn-text-primary btn-hover-primary btn-icon mr-2">
+		{{-- <a href="{{ route('vehicle.edit', $user->id )}}" data-toggle="tooltip" title="Only for admins" class="btn btn-sm btn-default btn-text-primary btn-hover-primary btn-icon mr-2">
 		<i class="far fa-edit text-primary"></i></a>
-		</td>
+		</td> --}}
 		</tr>
 
 			@endforeach

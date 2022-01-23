@@ -107,17 +107,13 @@
             <label>Department</label>
             <input id="department" type="text" class="form-control" name="department" required autocomplete="department" autofocus/>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
             <label>Post/Pincode</label>
             <input id="pincode" type="text" class="form-control  " name="pincode" required autocomplete="pincode" autofocus/>
             <span class="form-text text-muted">Please enter your Postcode or Pincode</span>
 
             </div>
 
-            <div class="col-lg-1">
-            <label>.</label>
-            <input type="button" class="btn btn-success form-control " value="Auto" onclick="get_details()">
-            </div>
 
             <div class="col-lg-4">
             <label>District:</label>
@@ -153,10 +149,10 @@
             <label>Role:</label>
             <select class="form-control form-control-solid" name="roles[]" id="kt_select2_2" required>
                     @foreach($roles as $role)
-                    @if ($role->id == 3 || $role->id == 4 || $role->id == 6)
+                    @if ($role->id == 1 || $role->id == 2|| $role->id == 3|| $role->id == 4)
 						@continue
 					@endif
-                        <option value="{{ $role-> id }}">{{ $role-> name }}</option>
+                        <option value="{{ $role->id }}">{{ $role->name }}</option>
                     @endforeach
                 </select>
 				</div>

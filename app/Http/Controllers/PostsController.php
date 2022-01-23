@@ -43,10 +43,10 @@ class PostsController extends Controller
 
     public function create()
     {
-
         $page_title = 'Society Registration';
         return view('pages.addcompany', compact('page_title'));
     }
+
     public function store(Request $request)
     {
         $data = request()->validate([
@@ -58,20 +58,22 @@ class PostsController extends Controller
             'state1' => 'required',
             'country1' => 'required',
             'badd' => 'required',
+            'password' => 'required',
         ]);
+        $emailData = [
+            'name' => $request->email1,
+            'email' => $request->email1
+        ];
 
-       
-
-        
         $posts = new Post;
         $posts->fname = $request->fname;
         $posts->phone1 = $request->phone1;
         $posts->email1 = $request->email1;
         $posts->pincode1 = $request->pincode1 ?? "No data";
-        $posts->district1 = $request->district1 ?? "No data";
+        $posts->district1 = "No data";
         $posts->city1 = $request->city1 ?? "No data";
         $posts->state1 = $request->state1 ?? "No data";
-        $posts->country1 = 'India';
+        $posts->country1 = $request->country1;
         $posts->badd = $request->badd ?? "No data";
         $posts->badd2 = 'Y';
         $posts->save();
@@ -89,20 +91,15 @@ class PostsController extends Controller
         $users->city = $request->city1;
         $users->add = 'Address';
         $users->pincode = $request->pincode1;
-        $users->password = Hash::make('admin');
+        $users->password = Hash::make($request->password);
         $users->type = 'Society';
         $users->society_id = $posts->id;
         $users->save();
         $users->roles()->attach(6);
         $users->save();
-        $data = [
-            'name' => $request->fname,
-            'email' => $request->email1
-        ];
-
-        Mail::to($request->email1)->send(new SignupMail($data));
         return redirect('/login');
     }
+
     public function show($id)
     {
         

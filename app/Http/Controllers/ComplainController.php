@@ -32,11 +32,7 @@ class ComplainController extends Controller
         $user = User::all();
         $rent = Complain::all();
         $page_title = 'Complain Logs';
-        return view('complain.datatables', compact('page_title')) -> with([
-            'rent' => $rent,
-            'user' => $user,
-            ]
-        );
+        return redirect()->to('ticket');
     }
 
     public function index()

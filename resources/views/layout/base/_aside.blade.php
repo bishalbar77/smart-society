@@ -1,13 +1,13 @@
 {{-- Aside --}}
 
 @php
-    $kt_logo_image = 'logo-light.png';
+    $kt_logo_image = 'society-logo.png';
 @endphp
 
 @if (config('layout.brand.self.theme') === 'light')
     @php $kt_logo_image = 'logo-dark.png' @endphp
 @elseif (config('layout.brand.self.theme') === 'dark')
-    @php $kt_logo_image = 'logo-light.png' @endphp
+    @php $kt_logo_image = 'society-logo.png' @endphp
 @endif
 
 <div class="aside aside-left {{ Metronic::printClasses('aside', false) }} d-flex flex-column flex-row-auto" id="kt_aside">
@@ -54,7 +54,7 @@
                         <span class="menu-text">Dashboard</span>
                     </a>
                 </li>
-                {{-- @if(Auth::user()->id==1)
+                @if(Auth::user()->id==1)
                 <li class="menu-item" aria-haspopup="true">
                     <a href="/admin/users" class="menu-link">
                         <span class="svg-icon menu-icon">
@@ -72,7 +72,7 @@
                     </a>
                 </li> 
                 @endif
-                @can('user_access')
+                {{-- @can('user_access')
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" class="menu-link menu-toggle">
                         <span class="svg-icon menu-icon">
@@ -104,7 +104,7 @@
                     </div>
                 </li>
                 
-                @endcan
+                @endcan --}}
                 @can('staff_access')
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" class="menu-link menu-toggle">
@@ -405,7 +405,7 @@
                         </ul>
                     </div>
                 </li>
-                @endcan --}}
+                @endcan
                 @can('account_access')
                 <li class="menu-item" aria-haspopup="true">
                     <a href="/setup" class="menu-link">

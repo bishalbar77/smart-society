@@ -28,6 +28,6 @@ class SignupMail extends Mailable
      */
     public function build()
     {
-        return $this->from('myapps@mavensdesk.com', 'MySociety')->subject('Welcome new user!')->view('mail.signup-email', ['mail_data' => $this->signup_mail_data]);
+        // return $this->from('myapps@mavensdesk.com', 'Smart Society')->subject('Welcome new user!')->view('mail.signup-email', ['mail_data' => $this->signup_mail_data]);
     }
 }

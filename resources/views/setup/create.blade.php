@@ -65,7 +65,7 @@
 <div class="col-lg-4">
 <label>Flat No:</label>
 <select class="form-control  form-control-solid @error('flat_no') is-invalid @enderror" name="flat_no" id="kt_select2_1"> 
-<option>Select Living Type</option>
+<option value="N/A">Select Living Type</option>
 @foreach($user as $users)
 <option value="{{ $users->flat_no}}">{{ $users->flat_no}}</option>
 @endforeach

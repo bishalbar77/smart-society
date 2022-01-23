@@ -4,7 +4,7 @@ and the input box nd all are in auth folders-->
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head><base href="../../../../">
 		<meta charset="utf-8" />
-		<title>MySociety | Sign In</title>
+		<title>Smart Society | Sign In</title>
 		<meta name="description" content="Singin page example" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<!--begin::Fonts-->
@@ -24,7 +24,7 @@ and the input box nd all are in auth folders-->
 		<link href="css/themes/layout/brand/dark.css?v=7.0.3" rel="stylesheet" type="text/css" />
 		<link href="css/themes/layout/aside/dark.css?v=7.0.3" rel="stylesheet" type="text/css" />
 		<!--end::Layout Themes-->
-		<link rel="shortcut icon" href="media/logos/favicon.ico" />
+		<link rel="shortcut icon" href="media/logos/favicon.jpeg" />
     
 </head>
 

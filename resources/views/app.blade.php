@@ -2,7 +2,7 @@
 <html class="wide wow-animation" lang="en"> 
   <head>
     <meta charset="utf-8">
-    <title>Mavensdesk Technology Services| @yield('title') </title>
+    <title>dscsd| @yield('title') </title>
      <link rel="icon" href="images/title_logo.png" type="image/icon type">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

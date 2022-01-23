@@ -14,12 +14,12 @@
             </tr>
             <tr>
                 <td class="esd-block-text es-p15t" align="left">
-                    <p style="color: #999999;">MySociety compromises of all the things needed by a society to manage efficiently. I believe I could be of great value for your business and would love to work with you.</p>
+                    <p style="color: #999999;">Smart Society compromises of all the things needed by a society to manage efficiently. I believe I could be of great value for your business and would love to work with you.</p>
                 </td>
             </tr>
             <tr>
                 <td class="esd-block-text es-p15t" align="left">
-                    <p style="color: #999999;">You can have you custom features enabled here on MySociety.<br>
+                    <p style="color: #999999;">You can have you custom features enabled here on Smart Society.<br>
                 </td>
             </tr>
             <tr>
@@ -40,7 +40,7 @@
             <tr>
                 <td class="esd-block-text es-p15t" align="left">
                     <p style="color: #999999;">Best regards,</p>
-                    <p style="color: #999999;">MySociety - mavendesk</p>
+                    <p style="color: #999999;">Smart Society</p>
                 </td>
             </tr>
         </tbody>
